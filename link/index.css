@@ -1,0 +1,237 @@
+body{
+
+    background-image: url(alvin_and_the_chipmunks_hd-wallpaper-2400x1350.jpg);
+    background-size: cover;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+.container{
+    margin: 30px;
+    background: #fff;
+    padding: 0;
+    border-radius: 7px;
+}
+
+.profile-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.settings-tray{
+    background: #eee;
+    padding: 10px 15px;
+    border-radius: 7px;
+}
+
+.icons{
+    margin-top: 10px;
+    color: grey;
+    transition: .3s all ease;
+}
+
+.icons:hover{
+    color: #007bff;
+    cursor: pointer;
+}
+
+.search-box{
+    background: #fafafa;
+    padding: 10px 13px;
+}
+
+.input-wrapper{
+    background: #fff;
+    border-radius: 40px;
+}
+.icon{
+    color: grey;
+    vertical-align: middle;
+    margin-left: 7px;
+}
+
+.search{
+    border: none;
+    border-radius: 40px;
+    width: 80%;
+}
+.search::placeholder{
+    color: #e3e3e3;
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+.search:focus{
+    outline: none;
+}
+
+.friend-drawer{
+    padding: 10px 15px;
+    display: flex;
+    border-radius: 7px;
+    vertical-align: baseline;
+    background: #fff;
+    transition: .3s ease;
+}
+
+.text{
+    margin-left: 12px;
+    width: 70%;
+}
+
+.friend-name{
+    font-size: 18px;
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+.friend-bio{
+    margin: 0;
+    color: grey;
+}
+
+.time{
+    color: grey;
+}
+
+.friend-drawer:hover{
+    background: #007bff;
+    cursor: pointer;
+}
+.friend-drawer:hover .friend-name{
+    color: #fff;
+}
+.friend-drawer:hover .friend-bio{
+    color: #fff;
+}
+.friend-drawer:hover .time{
+    color: #fff;
+}
+
+hr{
+    margin: 5px auto;
+    width: 60%;
+}
+
+.chat-page{
+    padding: 0 0 50px 0;
+}
+
+.msg-inbox{
+    overflow: hidden;
+    padding-bottom: 30px;
+    margin-left: 30px;
+    border-radius: 7px;
+    margin-bottom: -50px;;
+}
+
+.chats{
+    padding: 30px 15px 0 25px;
+}
+.msg-page{
+    height: 516px;
+    overflow-y: auto;
+}
+.recieved-chats-img img{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 100%;
+
+}
+.recieved-msg{
+    display: inline-block;
+    padding: 0 0 0 10px;
+    vertical-align: top;
+    width: 92%;
+}
+.recieved-msg-inbox{
+    width: 57%;
+}
+.recieved-msg-inbox p{
+    background: #efefef none repeat scroll 0 0;
+    border-radius: 10px;
+    color: #646464;
+    font-size: 14px;
+    margin: 0px;
+    padding: 5px 10px 5px 12px;
+    width: 100%;
+}
+.msg-time{
+    color: #777;
+    display: block;
+    font-size: 12px;
+    margin: 8px 0 0;
+}
+
+.outgoing-chats{
+    overflow: hidden;
+    margin: 26px 20px;
+}
+.outgoing-chats-msg p{
+    background: #007bff none repeat scroll 0 0;
+    color: #fff;
+    border-radius: 10px;
+    margin: 0;
+    color: #fff;
+    padding: 5px 10px 5px 12px;
+    width: 100%;
+}
+
+.outgoing-chats-msg{
+    float: left;
+    width: 46%;
+    margin-left: 45%;
+}
+.outgoing-chats-img img{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    float: right;
+    border-radius: 100%;
+}
+
+.input-box{
+    background: #eee;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    margin-top: 19px;
+}
+.form{
+    width: 100%;
+}
+.send{
+    margin: 0 10px;
+    padding: 6px 2px;
+    border: none;
+    border-radius: 40px;
+    width: 78%;
+}
+.send::placeholder{
+    color: #e3e3e3;
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+.send:focus{
+    outline: none;
+}
+
+.icoons{
+margin: 10px;
+color: grey;
+font-size: 30px;
+vertical-align: middle;
+cursor: pointer;
+}
+
+.butn{
+    border-style: none;
+}
+
+
+
+
